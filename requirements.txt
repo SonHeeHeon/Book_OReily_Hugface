@@ -1,0 +1,15 @@
+requests
+numpy
+pandas
+transformers
+--find-links https://download.pytorch.org/whl/cu121
+torch==2.1.2
+--find-links https://download.pytorch.org/whl/cu121
+torchvision==0.16.2
+--find-links https://download.pytorch.org/whl/cu121
+torchaudio
+jupyter
+ipykernel
+python-dotenv
+sentencepiece
+transformers[sentencepiece]
